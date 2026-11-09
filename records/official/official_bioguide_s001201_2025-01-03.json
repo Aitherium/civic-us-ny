@@ -1,0 +1,54 @@
+{
+  "contact": {
+    "office_phone": "202-225-3335",
+    "official_website": "https://suozzi.house.gov"
+  },
+  "district": "3",
+  "generation": {
+    "at": "2026-11-09",
+    "content_hash": "sha256:de0e2a2d87844db9b18a13ad5a653390fef45f4be5df9d5b12a5231afc3fcb87",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-09T17:45:25Z",
+      "units": ""
+    }
+  },
+  "id": "official:bioguide:S001201/2025-01-03",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "federal",
+  "overrides": [],
+  "person": {
+    "full_name": "Thomas R. Suozzi",
+    "party": "Democrat"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-09",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:787cb1af1fcdda04",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-09",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": "2027-01-03",
+    "start": "2025-01-03",
+    "status": "current"
+  },
+  "title": "Thomas R. Suozzi (U.S. Representative)"
+}

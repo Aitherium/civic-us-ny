@@ -1,0 +1,51 @@
+{
+  "body_type": "legislature",
+  "generation": {
+    "at": "2026-11-09",
+    "content_hash": "sha256:9cccd9cd18679a9b73485bbefc97bfb15ead8635eb256e1afc1a0fa8bf791d6a",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-09T17:45:25Z",
+      "units": ""
+    }
+  },
+  "id": "body:jur:us-ny-senate",
+  "jurisdiction": "jur:us-ny",
+  "kind": "body",
+  "meeting_portal_url": null,
+  "name": "Senate",
+  "overrides": [],
+  "parent_body": null,
+  "privacy": "public-record",
+  "provenance": {
+    "added_at": "2026-11-09",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:787cb1af1fcdda04",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-09",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "seats": 62,
+  "selection": "elected",
+  "status": "active",
+  "title": "Senate"
+}
