@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "133",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:a5a80f77966d86666704158549efacbe7b9a4d9b731b9b148298e05d5f80d27e",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/b46dbcbc-500c-4d28-ac9b-cf2a7291e79f/2025-01-01",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/133",
+  "overrides": [],
+  "person": {
+    "full_name": "Andrea Bailey",
+    "party": "Republican/Conservative"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2025-01-01",
+    "status": "current"
+  },
+  "title": "Andrea Bailey (State Representative)"
+}

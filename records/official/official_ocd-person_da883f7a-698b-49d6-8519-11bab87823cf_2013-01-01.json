@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "106",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:939265af75e1c3ce148b26811f8bbffa27f503b3f643b93d6c7bd545834b69ac",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/da883f7a-698b-49d6-8519-11bab87823cf/2013-01-01",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/106",
+  "overrides": [],
+  "person": {
+    "full_name": "Didi Barrett",
+    "party": "Democratic"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d32b130b807c8928",
+        "url": "https://assembly.state.ny.us/mem/Didi-Barrett"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2013-01-01",
+    "status": "current"
+  },
+  "title": "Didi Barrett (State Representative)"
+}

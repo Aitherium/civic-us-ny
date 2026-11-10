@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "90",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:a31d4e446353bcbf8c2debdc99b701215a6574282d30fcd7978b42cbeb0ec672",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/12dbcb73-95de-4067-8e68-7d7af51eac55/2019-01-02",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/90",
+  "overrides": [],
+  "person": {
+    "full_name": "Nader Sayegh",
+    "party": "Democratic"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:be06f3d61ed88756",
+        "url": "https://assembly.state.ny.us/mem/Nader-J-Sayegh"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2019-01-02",
+    "status": "current"
+  },
+  "title": "Nader Sayegh (State Representative)"
+}

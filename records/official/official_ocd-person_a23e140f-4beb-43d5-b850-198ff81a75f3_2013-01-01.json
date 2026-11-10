@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "138",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:6e1d15fd2a541d2c3f79a709843d8adae4183e91a7b2f82f88d015368e5f0626",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/a23e140f-4beb-43d5-b850-198ff81a75f3/2013-01-01",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/138",
+  "overrides": [],
+  "person": {
+    "full_name": "Harry Bronson",
+    "party": "Democratic"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:51d9fe727353506b",
+        "url": "https://assembly.state.ny.us/mem/Harry-B-Bronson"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2013-01-01",
+    "status": "current"
+  },
+  "title": "Harry Bronson (State Representative)"
+}

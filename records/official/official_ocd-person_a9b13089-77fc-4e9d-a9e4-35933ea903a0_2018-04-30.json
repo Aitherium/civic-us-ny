@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-senate",
+  "district": "37",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:acad9fe006020cca8d662833e9c58c442e40565cf42e027a144aeb39964b9b07",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/a9b13089-77fc-4e9d-a9e4-35933ea903a0/2018-04-30",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-senate/37",
+  "overrides": [],
+  "person": {
+    "full_name": "Shelley Mayer",
+    "party": "Democratic/Working Families"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2018-04-30",
+    "status": "current"
+  },
+  "title": "Shelley Mayer (State Senator)"
+}

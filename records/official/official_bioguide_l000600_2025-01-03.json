@@ -5,12 +5,12 @@
   },
   "district": "23",
   "generation": {
-    "at": "2026-11-09",
-    "content_hash": "sha256:409c0d3374efa542c813f83682d29c3b951b92f2bdc582b77281649cd1cc8530",
+    "at": "2026-11-10",
+    "content_hash": "sha256:a2ce42b2ca1d1fde2f24d59c317ad012fc26e9c3ff2f913b1da5a1fc189dd998",
     "generator": "civic_repo_gen/0.1.0",
     "source_snapshot": {
       "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
-      "officials": "2026-11-09T17:45:25Z",
+      "officials": "2026-11-10T07:36:16Z",
       "units": ""
     }
   },
@@ -25,19 +25,19 @@
   },
   "privacy": "public-official",
   "provenance": {
-    "added_at": "2026-11-09",
+    "added_at": "2026-11-10",
     "added_by": "civic_repo_gen/0.1.0",
     "evidence": {},
     "sources": [
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:787cb1af1fcdda04",
         "url": "https://github.com/unitedstates/congress-legislators"
       }
     ],
     "validated": {
-      "at": "2026-11-09",
+      "at": "2026-11-10",
       "by": "civic_repo_gen/0.1.0",
       "method": "generated-official"
     },

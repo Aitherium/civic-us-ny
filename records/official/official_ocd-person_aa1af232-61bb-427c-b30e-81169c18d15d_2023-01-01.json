@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "15",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:8a4a25ff8f6fa9c93636cbce94044292f90717548759521067ec22cca0ae7c95",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/aa1af232-61bb-427c-b30e-81169c18d15d/2023-01-01",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/15",
+  "overrides": [],
+  "person": {
+    "full_name": "Jake Blumencranz",
+    "party": "Republican/Conservative"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1d4085b8a279ad65",
+        "url": "https://assembly.state.ny.us/mem/Jake-Blumencranz"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2023-01-01",
+    "status": "current"
+  },
+  "title": "Jake Blumencranz (State Representative)"
+}

@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "112",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:80a66226b90820958861ab6aedac2de2be9aae33071d499a848c901a550f1e4b",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/f83f11f2-bfdb-4f84-925a-ae04c97b990e/2017-01-04",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/112",
+  "overrides": [],
+  "person": {
+    "full_name": "Mary Beth Walsh",
+    "party": "Republican"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4789c57ec957c11d",
+        "url": "https://assembly.state.ny.us/mem/Mary-Beth-Walsh"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2017-01-04",
+    "status": "current"
+  },
+  "title": "Mary Beth Walsh (State Representative)"
+}

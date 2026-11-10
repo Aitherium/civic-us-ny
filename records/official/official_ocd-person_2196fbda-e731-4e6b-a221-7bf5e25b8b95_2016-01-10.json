@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "29",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:412f0faf70650af92a5e78268b5faafe87e1ac8db9023dd092882a5d2387309a",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/2196fbda-e731-4e6b-a221-7bf5e25b8b95/2016-01-10",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/29",
+  "overrides": [],
+  "person": {
+    "full_name": "Alicia Hyndman",
+    "party": "Democratic"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:811a1b45c506f1bc",
+        "url": "https://assembly.state.ny.us/mem/Alicia-Hyndman"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2016-01-10",
+    "status": "current"
+  },
+  "title": "Alicia Hyndman (State Representative)"
+}

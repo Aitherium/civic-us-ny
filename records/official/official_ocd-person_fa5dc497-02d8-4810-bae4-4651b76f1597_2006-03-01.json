@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "139",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:5c675eb8a63132a9c45721764a7198b599e6df9cd659496b907d6702b1ce8340",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/fa5dc497-02d8-4810-bae4-4651b76f1597/2006-03-01",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/139",
+  "overrides": [],
+  "person": {
+    "full_name": "Steve Hawley",
+    "party": "Republican"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:45729ed8494ef2c5",
+        "url": "https://assembly.state.ny.us/mem/Stephen-Hawley"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2006-03-01",
+    "status": "current"
+  },
+  "title": "Steve Hawley (State Representative)"
+}

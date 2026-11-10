@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "117",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:1b60b519ea117f6e9dde60a99288e981721ff84b2333714d38ec0144bc994074",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/f9d3d599-6a28-4110-9347-8a5e35d2274a/2013-01-01",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/117",
+  "overrides": [],
+  "person": {
+    "full_name": "Ken Blankenbush",
+    "party": "Republican"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:73fc6f20a2d047ec",
+        "url": "https://assembly.state.ny.us/mem/Ken-Blankenbush"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2013-01-01",
+    "status": "current"
+  },
+  "title": "Ken Blankenbush (State Representative)"
+}

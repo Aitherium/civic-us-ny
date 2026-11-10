@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "125",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:071cbcb2bec91853fe4e88f175f1ebb4cf974ded5f70283ed06c76f23f10abbe",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/edde17c2-c810-4ec8-97c3-4cc0ea2e32d0/2021-01-06",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/125",
+  "overrides": [],
+  "person": {
+    "full_name": "Anna Kelles",
+    "party": "Democratic/Working Families"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d90ce264e7efd7f1",
+        "url": "https://assembly.state.ny.us/mem/Anna-Kelles"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2021-01-06",
+    "status": "current"
+  },
+  "title": "Anna Kelles (State Representative)"
+}

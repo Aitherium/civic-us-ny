@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "135",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:acbec30e407a23e7d438eb3407528501095fef646599cbc2c02fc8ce1c81e24d",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/f6394f20-1953-434b-a2bb-2d255d4fafbe/2021-01-06",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/135",
+  "overrides": [],
+  "person": {
+    "full_name": "Jen Lunsford",
+    "party": "Democratic/Working Families"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:a383572275964b82",
+        "url": "https://assembly.state.ny.us/mem/Jen-Lunsford"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2021-01-06",
+    "status": "current"
+  },
+  "title": "Jen Lunsford (State Representative)"
+}

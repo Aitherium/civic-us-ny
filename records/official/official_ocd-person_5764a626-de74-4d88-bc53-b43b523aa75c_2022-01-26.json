@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-ny-assembly",
+  "district": "68",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:4eb25a454419d22b1957803965283f6f9d983efc9ac47e181eda6f9f08c0a224",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/5764a626-de74-4d88-bc53-b43b523aa75c/2022-01-26",
+  "jurisdiction": "jur:us-ny",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-ny-assembly/68",
+  "overrides": [],
+  "person": {
+    "full_name": "Eddie Gibbs",
+    "party": "Democratic"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ac13cada7a7706b1",
+        "url": "https://assembly.state.ny.us/mem/Eddie-Gibbs"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2022-01-26",
+    "status": "current"
+  },
+  "title": "Eddie Gibbs (State Representative)"
+}

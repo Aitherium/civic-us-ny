@@ -21,14 +21,14 @@
       "jurisdiction": 1,
       "measures": 0,
       "meetings": 0,
-      "offices": 3,
-      "officials": 31,
-      "sources": 7
+      "offices": 215,
+      "officials": 243,
+      "sources": 140
     },
     "gaps": [
       "chamber seats are the number of current members the officials cache resolves (Senate 62, Assembly 150); a vacancy makes that a lower bound on the chamber's statutory size",
       "the officials cache does not state whether each statewide office is elected or appointed, so the offices are labelled elected; a crowd submission in records/office corrects one that is appointed",
-      "the 212 state legislators the officials cache resolves are not emitted as official records in this state repo (the chamber bodies are); a later slice adds them by district",
+      "the 212 state legislators the officials cache resolves are emitted as official records, each linked to its chamber body and a district office created from the data",
       "no meeting or measure records: state bill and hearing ingestion is a later slice",
       "global-law has no corpus for jur:us-ny yet; nearest: country (united-states/federal). This repo references those corpora by path and pinned commit and never copies their text."
     ],
@@ -41,12 +41,12 @@
     "wikipedia": null
   },
   "generation": {
-    "at": "2026-11-09",
-    "content_hash": "sha256:382677614c112cfe68328ec557dc76062ad8b826ec641297aa29e872f42e449f",
+    "at": "2026-11-10",
+    "content_hash": "sha256:a7bc650efd85dae430520ab501532893ab2b07d9c8772cf2fa17ca289f73d198",
     "generator": "civic_repo_gen/0.1.0",
     "source_snapshot": {
       "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
-      "officials": "2026-11-09T17:45:25Z",
+      "officials": "2026-11-10T07:36:16Z",
       "units": ""
     }
   },
@@ -83,55 +83,853 @@
   "parent": "jur:us",
   "privacy": "public-record",
   "provenance": {
-    "added_at": "2026-11-09",
+    "added_at": "2026-11-10",
     "added_by": "civic_repo_gen/0.1.0",
     "evidence": {},
     "sources": [
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:787cb1af1fcdda04",
         "url": "https://github.com/unitedstates/congress-legislators"
       },
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:d67cc2aa6a7260fe",
         "url": "https://github.com/openstates/people"
       },
       {
         "license": "US Government work (public domain)",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:f885d50ccb05f78b",
         "url": "https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html"
       },
       {
         "license": "see NOTICE",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:c8e6292d1256ba5b",
         "url": "https://github.com/lexifina/united-states-law"
       },
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:81417fbd30ae8080",
         "url": "https://ag.ny.gov/about/meet-letitia-james"
       },
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:600f91f816ccd3c0",
+        "url": "https://assembly.state.ny.us/mem/Al-Stirpe"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:7be85bcdb1d9ad01",
+        "url": "https://assembly.state.ny.us/mem/Al-Taylor"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:f743f6d58a977cbb",
+        "url": "https://assembly.state.ny.us/mem/Alex-Bores"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:811a1b45c506f1bc",
+        "url": "https://assembly.state.ny.us/mem/Alicia-Hyndman"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ea7a004cf58763f3",
+        "url": "https://assembly.state.ny.us/mem/Amanda-Septimo"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:98b8ef961cc420e6",
+        "url": "https://assembly.state.ny.us/mem/Amy-Paulin"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:6b37789f61ebc2be",
+        "url": "https://assembly.state.ny.us/mem/Andrew-Hevesi"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1d60c783e7075c33",
+        "url": "https://assembly.state.ny.us/mem/Angelo-J-Morinello"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:a22f2ab0ee6dc09e",
+        "url": "https://assembly.state.ny.us/mem/Angelo-Santabarbara"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:629ea8946efc8b54",
+        "url": "https://assembly.state.ny.us/mem/Anil-Beephan-Jr"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d90ce264e7efd7f1",
+        "url": "https://assembly.state.ny.us/mem/Anna-Kelles"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:41a3cead934dc896",
+        "url": "https://assembly.state.ny.us/mem/Anthony-H-Palumbo"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:120ddfd7000d97dc",
+        "url": "https://assembly.state.ny.us/mem/Ari-Brown"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ed0a9da2826904ea",
+        "url": "https://assembly.state.ny.us/mem/Brian-Cunningham"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:18dcbd3071b97522",
+        "url": "https://assembly.state.ny.us/mem/Brian-D-Miller"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:88e1e2073e5d05ec",
+        "url": "https://assembly.state.ny.us/mem/Brian-Maher"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ce539be95008edff",
+        "url": "https://assembly.state.ny.us/mem/Brian-Manktelow"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:41dcbd5829ad77a2",
+        "url": "https://assembly.state.ny.us/mem/Carl-E-Heastie"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:0c3de512c75d06dd",
+        "url": "https://assembly.state.ny.us/mem/Carrie-Woerner"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ffa68ec1806c86d4",
+        "url": "https://assembly.state.ny.us/mem/Catalina-Cruz"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:c5f0ac2188a3f235",
+        "url": "https://assembly.state.ny.us/mem/Chantel-Jackson"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:27987412dfdd71b3",
+        "url": "https://assembly.state.ny.us/mem/Charles-D-Fall"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:aca2514a810afb1c",
+        "url": "https://assembly.state.ny.us/mem/Charles-D-Lavine"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:bd15347a456722c8",
+        "url": "https://assembly.state.ny.us/mem/Chris-Burdick"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:867e9a0489bf6c84",
+        "url": "https://assembly.state.ny.us/mem/Chris-Eachus"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:2c3be2b3c66826c4",
+        "url": "https://assembly.state.ny.us/mem/Chris-Tague"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:fdac3fb2e24ecf75",
+        "url": "https://assembly.state.ny.us/mem/Christopher-S-Friend"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:97596abc8c9b1063",
+        "url": "https://assembly.state.ny.us/mem/Claire-Valdez"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:44d680471d4fb806",
+        "url": "https://assembly.state.ny.us/mem/Clyde-Vanel"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:e012f71aae2e23f5",
+        "url": "https://assembly.state.ny.us/mem/Crystal-D-Peoples-Stokes"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:85816d3b4db0143d",
+        "url": "https://assembly.state.ny.us/mem/Dana-Levenberg"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:7564152023ea5d41",
+        "url": "https://assembly.state.ny.us/mem/David-DiPietro"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:51634542b7c8acd2",
+        "url": "https://assembly.state.ny.us/mem/David-G-McDonough"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:dfc6c1e1b1c01742",
+        "url": "https://assembly.state.ny.us/mem/David-I-Weprin"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1912df67d166c7f3",
+        "url": "https://assembly.state.ny.us/mem/Deborah-J-Glick"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:5243945db082cf9f",
+        "url": "https://assembly.state.ny.us/mem/Demond-Meeks"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d32b130b807c8928",
+        "url": "https://assembly.state.ny.us/mem/Didi-Barrett"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:0084dbd0b1ccb31d",
+        "url": "https://assembly.state.ny.us/mem/Donna-A-Lupardo"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:85fbb128b4c98e9e",
+        "url": "https://assembly.state.ny.us/mem/Doug-Smith"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ac13cada7a7706b1",
+        "url": "https://assembly.state.ny.us/mem/Eddie-Gibbs"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:6e30a086b2375444",
+        "url": "https://assembly.state.ny.us/mem/Edward-C-Braunstein"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:44ea345225b38f5b",
+        "url": "https://assembly.state.ny.us/mem/Edward-P-Ra"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4eb22083d0365811",
+        "url": "https://assembly.state.ny.us/mem/Emily-Gallagher"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d8c430d843d25b27",
+        "url": "https://assembly.state.ny.us/mem/Erik-M-Dilan"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:86762ceaf8fcb4d1",
+        "url": "https://assembly.state.ny.us/mem/George-Alvarez"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4985f0a07311e720",
+        "url": "https://assembly.state.ny.us/mem/Grace-Lee"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:51d9fe727353506b",
+        "url": "https://assembly.state.ny.us/mem/Harry-B-Bronson"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:7413c531adacd1c4",
+        "url": "https://assembly.state.ny.us/mem/J-Gary-Pretlow"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:9dc7b055966c7831",
+        "url": "https://assembly.state.ny.us/mem/Jaime-R-Williams"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:5f2dcc7ea865b281",
+        "url": "https://assembly.state.ny.us/mem/Jake-Ashby"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1d4085b8a279ad65",
+        "url": "https://assembly.state.ny.us/mem/Jake-Blumencranz"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:062ce6dd2d9b375e",
+        "url": "https://assembly.state.ny.us/mem/Jarett-Gandolfo"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:fcccf5fd27af9e02",
+        "url": "https://assembly.state.ny.us/mem/Jeff-Gallahan"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:fe45c1b60646d1bb",
+        "url": "https://assembly.state.ny.us/mem/Jeffrey-Dinowitz"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:a383572275964b82",
+        "url": "https://assembly.state.ny.us/mem/Jen-Lunsford"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:de5f7ae2444cdbbd",
+        "url": "https://assembly.state.ny.us/mem/Jenifer-Rajkumar"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ee7af06a20047920",
+        "url": "https://assembly.state.ny.us/mem/Jessica-Gonzalez-Rojas"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:f5eefaf52a985dfa",
+        "url": "https://assembly.state.ny.us/mem/Jo-Anne-Simon"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4e2e45251f1e4938",
+        "url": "https://assembly.state.ny.us/mem/Jodi-Giglio"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:f61f6ac4995ba47a",
+        "url": "https://assembly.state.ny.us/mem/Joe-Angelino"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:11b2443425171d2b",
+        "url": "https://assembly.state.ny.us/mem/Joe-DeStefano"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:116d67d1e7f7c6b3",
+        "url": "https://assembly.state.ny.us/mem/John-K-Mikulin"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:aa3d1e057e0fb4d4",
+        "url": "https://assembly.state.ny.us/mem/John-Lemondes"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:8747937f97415451",
+        "url": "https://assembly.state.ny.us/mem/John-T-McDonald-III"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:404e57e234cf63f7",
+        "url": "https://assembly.state.ny.us/mem/John-Zaccaro-Jr"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:5a368c0b54bc6bca",
+        "url": "https://assembly.state.ny.us/mem/Jonathan-G-Jacobson"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:aadec117ca2ba74d",
+        "url": "https://assembly.state.ny.us/mem/Jonathan-Rivera"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1046829505a12530",
+        "url": "https://assembly.state.ny.us/mem/Josh-Jensen"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:6c89f20726995b4c",
+        "url": "https://assembly.state.ny.us/mem/Judy-Griffin"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:30c171ccbbcd4c66",
+        "url": "https://assembly.state.ny.us/mem/Karen-McMahon"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:e49977c7aa8291e4",
+        "url": "https://assembly.state.ny.us/mem/Karines-Reyes"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:27dcfe5bc5d8b787",
+        "url": "https://assembly.state.ny.us/mem/Karl-Brabenec"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:aa9ad3f9e373e73b",
+        "url": "https://assembly.state.ny.us/mem/Keith-P-Brown"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:73fc6f20a2d047ec",
+        "url": "https://assembly.state.ny.us/mem/Ken-Blankenbush"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:5f1cbdd27fac972e",
+        "url": "https://assembly.state.ny.us/mem/Khaleel-M-Anderson"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:dd3ab8cc58fa36a6",
+        "url": "https://assembly.state.ny.us/mem/Latrice-M-Walker"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:6f5692411ccaf971",
+        "url": "https://assembly.state.ny.us/mem/Lester-Chang"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:454e2859ff7433dd",
+        "url": "https://assembly.state.ny.us/mem/Linda-B-Rosenthal"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:3affb708dc448086",
+        "url": "https://assembly.state.ny.us/mem/Manny-De-Los-Santos"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:b7ffaa453b956485",
+        "url": "https://assembly.state.ny.us/mem/Marcela-Mitaynes"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:f3fac6fab08d83a4",
+        "url": "https://assembly.state.ny.us/mem/Marianne-Buttenschon"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d4abfac5257e7141",
+        "url": "https://assembly.state.ny.us/mem/Maritza-Davila"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:675b9bc18c934afb",
+        "url": "https://assembly.state.ny.us/mem/Mark-Walczyk"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4789c57ec957c11d",
+        "url": "https://assembly.state.ny.us/mem/Mary-Beth-Walsh"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:c93c7ea7bd8b3c17",
+        "url": "https://assembly.state.ny.us/mem/MaryJane-Shimsky"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:170a56f78e761988",
+        "url": "https://assembly.state.ny.us/mem/Matt-Slater"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d8cf2266eb934855",
+        "url": "https://assembly.state.ny.us/mem/Matthew-Simpson"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:87d2f043eb0c11d3",
+        "url": "https://assembly.state.ny.us/mem/Michael-Benedetto"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d06fb1ba99271b67",
+        "url": "https://assembly.state.ny.us/mem/Michael-Cashman"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1b93bded0ab10c79",
+        "url": "https://assembly.state.ny.us/mem/Michael-Durso"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4ec1b6a85025b393",
+        "url": "https://assembly.state.ny.us/mem/Michael-J-Fitzpatrick"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:7e9e9ed51510803e",
+        "url": "https://assembly.state.ny.us/mem/Michael-Novakhov"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:25d8c1784b361696",
+        "url": "https://assembly.state.ny.us/mem/Michael-Reilly"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:89565d96fe9eb304",
+        "url": "https://assembly.state.ny.us/mem/Michael-Tannousis"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:746e72dfc6b2bcc5",
+        "url": "https://assembly.state.ny.us/mem/Michaelle-C-Solages"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:79a25e04e0ff3c62",
+        "url": "https://assembly.state.ny.us/mem/Monique-Chandler-Waterman"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:be06f3d61ed88756",
+        "url": "https://assembly.state.ny.us/mem/Nader-J-Sayegh"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:a8724b0a595ad5ba",
+        "url": "https://assembly.state.ny.us/mem/Nathalia-Fernandez"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:b51ee82606f37db2",
+        "url": "https://assembly.state.ny.us/mem/Nikki-Lucas"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:469f3f6df5be981b",
+        "url": "https://assembly.state.ny.us/mem/Nily-Rozic"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:2a40f1486ef0862c",
+        "url": "https://assembly.state.ny.us/mem/Pamela-J-Hunter"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d320bf7a50483b2c",
+        "url": "https://assembly.state.ny.us/mem/Pat-Burke"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:4b8697b2781bd633",
+        "url": "https://assembly.state.ny.us/mem/Patricia-Fahy"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:1c96444584305888",
+        "url": "https://assembly.state.ny.us/mem/Phara-Souffrant-Forrest"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:7bdac932068341db",
+        "url": "https://assembly.state.ny.us/mem/Phil-Ramos"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:49929009c92a33b7",
+        "url": "https://assembly.state.ny.us/mem/Phil-Steck"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:0f92f49cc946f543",
+        "url": "https://assembly.state.ny.us/mem/Philip-A-Palmesano"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:92a273318ee1094d",
+        "url": "https://assembly.state.ny.us/mem/Rebecca-A-Seawright"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:ac9c6313e47a09d6",
+        "url": "https://assembly.state.ny.us/mem/Robert-C-Carroll"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:3f7321044605c08a",
+        "url": "https://assembly.state.ny.us/mem/Robert-Smullen"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:2f9b4afe7fbd6848",
+        "url": "https://assembly.state.ny.us/mem/Rodneyse-Bichotte"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:668bd6acf6548818",
+        "url": "https://assembly.state.ny.us/mem/Ron-Kim"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:b858d924d6000789",
+        "url": "https://assembly.state.ny.us/mem/Sam-Berger"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:3587a6aef015047e",
+        "url": "https://assembly.state.ny.us/mem/Sam-Pirozzolo"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:890495ae410a99d2",
+        "url": "https://assembly.state.ny.us/mem/Sarah-Clark"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:6aff82a83e69fd88",
+        "url": "https://assembly.state.ny.us/mem/Sarahana-Shrestha"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:fcc339d735076a96",
+        "url": "https://assembly.state.ny.us/mem/Scott-Bendett"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:64b0da896684c3ea",
+        "url": "https://assembly.state.ny.us/mem/Scott-Gray"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:f331d3e2ae353b2f",
+        "url": "https://assembly.state.ny.us/mem/Simcha-Eichenstein"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:3d6b5bcaad9bb762",
+        "url": "https://assembly.state.ny.us/mem/Stacey-Pheffer-Amato"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:bb8021c9a23c100c",
+        "url": "https://assembly.state.ny.us/mem/Stefani-Zinerman"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:45729ed8494ef2c5",
+        "url": "https://assembly.state.ny.us/mem/Stephen-Hawley"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:fc2c2b2b5edc53be",
+        "url": "https://assembly.state.ny.us/mem/Steve-Stern"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:da162de82d6b71d7",
+        "url": "https://assembly.state.ny.us/mem/Steven-Otis"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:3814ae3b5ca4affc",
+        "url": "https://assembly.state.ny.us/mem/Steven-Raga"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:9de9138aab2983a9",
+        "url": "https://assembly.state.ny.us/mem/Tony-Simone"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:28f7bb125194bab5",
+        "url": "https://assembly.state.ny.us/mem/Vivian-E-Cook"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:657ebb06f71845d4",
+        "url": "https://assembly.state.ny.us/mem/William-A-Barclay"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:5b91c59623c8c6ed",
+        "url": "https://assembly.state.ny.us/mem/William-B-Magnarelli"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:edfd8f07981f79d7",
+        "url": "https://assembly.state.ny.us/mem/William-Colton"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:b5194cf427ea5621",
+        "url": "https://assembly.state.ny.us/mem/William-Conrad"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:2300e5898b48a482",
+        "url": "https://assembly.state.ny.us/mem/Yudelka-Tapia"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:210710da5d957436",
+        "url": "https://assembly.state.ny.us/mem/alec-brook-krasny"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:89c84c4cc85f1797",
         "url": "https://www.governor.ny.gov/"
       },
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
+        "retrieved_at": "2026-11-10",
         "source_id": "source:3376da2c21b26671",
         "url": "https://www.governor.ny.gov/lt-governor-antonio-delgado"
       }
     ],
     "validated": {
-      "at": "2026-11-09",
+      "at": "2026-11-10",
       "by": "civic_repo_gen/0.1.0",
       "method": "generated-official"
     },
